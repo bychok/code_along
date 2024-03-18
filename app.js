@@ -129,7 +129,44 @@
 // ----------[ LOOPS ]----------
 
 // For
+// for (let i = 0; i <= 10; i++) {
+//   console.log(`For Loop Number: ${i}`);
+// }
 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
+// While
+// let i = 0;
+// while (i < 10) {
+//     console.log(`While Loop Number: ${i}`);
+//     i++;
+// }
+
+// Looping through Arrays
+// for (let i = 0; i < todos.length; i++) {
+//     console.log(todos[i].text);
+//   }
+
+// For
+// for (let i = 0; i <= 10; i++) {
+//     console.log(`For Loop Number: ${i}`);
+//   }
+
+// for(let todo of todos) {
+//     console.log(todo.text);
+// }
+
+// forEach, map, filter
+// todos.forEach(function() {
+//     console.log(todo.text);
+// });
+
+// const todoText = todos.map(function(todo) {
+//     return todo.text;
+// });
+// console.log(todoText);
+
+// const todoCompleted = todos.filter(function(todo) {
+//     return todo.isCompleted === true;
+// }).map(function(todo) {
+//     return todo.text;
+// });
+// console.log(todoCompleted);
